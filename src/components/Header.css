@@ -1,0 +1,26 @@
+.Header {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.Header > div {
+    display: flex;
+}
+
+.Header .header_center {
+    width: 50%;
+    font-size: 25px;
+    justify-content: center; /* 부모의 display: flex 가 설정된 곳에서 자식들을 가운데 설정으로 만드는 속성 */
+}
+
+.Header .header_left {
+    width: 25%;
+    justify-content: flex-start;
+}
+
+.Header .header_right {
+    width: 25%;
+    justify-content: flex-end;
+}
