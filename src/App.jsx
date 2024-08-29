@@ -38,7 +38,6 @@ function reducer(state, action) {
       nextSate = [action.data, ...state];
       break;
     }
-      ;
     case "UPDATE": {
       nextSate = state.map(
           (item) => String(item.id) === String(action.data.id) ? action.data
